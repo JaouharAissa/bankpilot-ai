@@ -1,0 +1,45 @@
+# Environnement virtuel
+venv/
+env/
+.venv/
+
+# Variables d'environnement sensibles
+.env
+
+# Base de données
+data/cdg_test.db
+data/*.db
+
+# Logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Ajouté par clean_project.py
+*.pyc  # Bytecode Python
+*.pyo  # Bytecode Python optimisé
+.pytest_cache/  # Cache pytest
+outputs/*.docx  # Rapports Word générés
+outputs/*.pptx  # Présentations PowerPoint générées
+outputs/~$*  # Fichiers temporaires Office

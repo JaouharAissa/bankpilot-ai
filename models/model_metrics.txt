@@ -1,0 +1,27 @@
+=== MÉTRIQUES DU MODÈLE DE PRÉDICTION DE CHURN ===
+
+Précision (Accuracy): 0.8665
+AUC-ROC: 0.8633
+
+Détails par classe:
+- Classe 0 (Ne part pas):
+  Precision: 0.8737
+  Recall: 0.9730
+  F1-Score: 0.9207
+
+- Classe 1 (Part):
+  Precision: 0.8097
+  Recall: 0.4496
+  F1-Score: 0.5782
+
+Taille dataset:
+- Train: 8000 exemples
+- Test: 2000 exemples
+
+Top 5 features importantes:
+       feature  importance
+           Age    0.355147
+ NumOfProducts    0.247129
+       Balance    0.114132
+   CreditScore    0.078588
+IsActiveMember    0.073060
