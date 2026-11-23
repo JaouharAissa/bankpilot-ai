@@ -44,7 +44,7 @@ Quel est le PNB moyen du segment France ?
 
 ## 📊 Fonctionnalités
 
-### 💬 Chat Intelligent (18 outils)
+### 💬 Chat Intelligent (19 outils)
 - Posez des questions en langage naturel
 - L'IA interroge automatiquement la base de données
 - Réponses basées sur vos données réelles
@@ -137,12 +137,6 @@ L'assistant utilise une architecture **RAG** (Retrieval Augmented Generation) :
 
 **Base de données vide ?**
 - Relancez : `python src/setup_db.py`
-
-## 📝 Licence
-
-Projet éducatif - Utilisation libre
-
----
 
 **Version**: 2.1  
 **Dernière mise à jour**: Août 2026
